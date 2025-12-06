@@ -28,3 +28,9 @@
     margin-bottom: 20px;
     color: #333;
 }
+
+.todo-app h2 img{
+    width: 40px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
