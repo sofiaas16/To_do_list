@@ -19,6 +19,7 @@ The user can add tasks, mark them as completed, delete them, and store everythin
 - They remain available even after refreshing or closing the browser.
 
 🧩 Project Structure
+
 │── index.html       # Main page structure  
 │── styles.css       # Interface styles  
 │── script.js        # Core logic for the To-Do List  
