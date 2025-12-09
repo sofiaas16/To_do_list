@@ -1,9 +1,10 @@
-To-Do List Web App
+**To-Do List Web App**
 
 This project is a simple and functional To-Do List built with HTML, CSS, and JavaScript.
-The user can add tasks, mark them as completed, delete them, and store everything using LocalStorage.
+Users can add tasks, mark them as completed, delete them, and all tasks are persisted using a MockAPI.
 
-🚀 **Features**
+🚀 Features
+
 - Task Management
 
 - Add new tasks to the list.
@@ -12,30 +13,37 @@ The user can add tasks, mark them as completed, delete them, and store everythin
 
 - Delete individual tasks.
 
-- LocalStorage Persistence
+- API Persistence
 
-- All tasks are saved automatically.
+- All tasks are stored in a remote MockAPI.
 
-- They remain available even after refreshing or closing the browser.
+Tasks remain available after refreshing or closing the browser.
 
 🧩 Project Structure
-
 │── index.html       # Main page structure  
 │── styles.css       # Interface styles  
-│── script.js        # Core logic for the To-Do List  
+│── script.js        # Core logic for the To-Do List with MockAPI integration  
 │── README.md        # Project documentation  
 
 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
-- LocalStorage
+HTML5
+CSS3
+JavaScript
+Fetch API
+MockAPI
 
 📦 Installation
 
 Clone the repository:
 
-git clone https://github.com/sofiaas16/To-Do-List.git
+**git clone https://github.com/sofiaas16/To-Do-List.git**
 
-**Open index.html in your browser to run the app, or simply use the link available in the repository’s About section.**
+
+Open index.html in your browser to run the app.
+
+**⚡ Notes**
+
+Tasks are stored remotely via MockAPI: https://69383e584618a71d77cf8252.mockapi.io/todo/api/task
+
+The state of each task is a boolean (true = completed, false = not completed).
